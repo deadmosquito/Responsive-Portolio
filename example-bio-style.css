@@ -1,0 +1,103 @@
+
+body {
+  /* Box-model */
+  padding: 0;
+
+  /* Positioning */
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+  /* Typography */
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+
+  /* Visual */
+  background: #efeee7;
+}
+
+header { 
+  text-align: center;
+  background-color: cadetblue;
+  margin: 0 auto;
+  padding: 20px;
+  width: 500px;
+  color: #efeee7;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.row {
+  /* Box-model */
+  padding: 20px 0;
+
+  /* Positioning */
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 500px;
+  font-size: 28px;
+
+  /* Typography */
+  color: #eee;
+  text-align: center;
+
+  /* Visual */
+  background-color: lightseagreen;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+a {
+  color: rgb(9, 209, 169);
+}
+
+.container {
+  /* Box-model */
+  width: 1024px;
+
+  /* Positioning */
+  margin: 0 auto;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+  float: left;
+}
+
+#main-bio {
+  width: 70%;
+}
+
+#contact-info {
+  width: 30%;
+}
+
+#bio-image {
+  /* Box-model */
+  width: 200px;
+  height: 200px;
+
+  /* Positioning */
+
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 980px) , (max-width: 768px) , (max-width:640px) {
+  #contact-info {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  #contact-info {
+    float: left;
+    padding: 15px;
+  }
+  
+  #contact-info {margin-left: 0;}
+}
