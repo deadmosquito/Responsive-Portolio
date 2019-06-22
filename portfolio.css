@@ -1,0 +1,122 @@
+body {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+#masthead {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 10px;
+    overflow: auto;
+    color: #ffffff;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+
+header {
+    display: block;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+
+div {
+    display: block;
+}
+
+#logo {
+    float: left;
+    width: 360px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+}
+
+nav {
+    float: right;
+    margin-top: 25px;
+}
+
+nav a:first-child {
+    border-left: 0 none;
+}
+nav a {
+    margin-right: 30px;
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 10px 0;
+    clear: both;
+    font-size: 6px;
+    display: block;
+    color: #cccccc;
+    text-align: left;
+    background: #666666;
+    border-top: 2px solid #4aaaa5;
+    height: 6px;
+    width: 100%;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+@media screen and (max-width: 980px) , (max-width: 768px) , (max-width: 640px) {
+    body {
+      text-align: center;
+      background-color: tan;
+    }
+  }
+  /* sharing half of the screen and floating*/
+  .column {
+    float: left;
+    width: 50%;
+    margin-bottom: 14px;
+    margin-top: 68px;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+  
+  /* Clear floats after the columns, table is for the showing, and content is for the picture? */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+
+@media screen and (max-width:640px) {
+    .column {
+        width:100%;
+    
+
+    }
+}
