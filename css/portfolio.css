@@ -1,6 +1,8 @@
 body {
     font-size: 24px;
     line-height: 40px;
+    color: #efeee7;
+    background: #efeee7;
 }
 
 #masthead {
@@ -9,9 +11,9 @@ body {
     width: 100%;
     margin: 0 0 10px;
     overflow: auto;
-    color: #ffffff;
-    background: #ffffff;
-    border-bottom: 2px solid #cccccc;
+    color: #efeee7;
+    background: #efeee7;
+    border-bottom: 2px solid #efeee7;
 }
 
 
@@ -39,7 +41,7 @@ div {
     font-size: 30px;
     font-weight: 700;
     line-height: 90px;
-    color: #ffffff;
+    color: #efeee7;
     text-align: center;
     text-decoration: none;
     background: #4aaaa5;
@@ -91,7 +93,7 @@ footer {
 @media screen and (max-width: 980px) , (max-width: 768px) , (max-width: 640px) {
     body {
       text-align: center;
-      background-color: tan;
+      background-color: #efeee7;
     }
   }
   /* sharing half of the screen and floating*/
